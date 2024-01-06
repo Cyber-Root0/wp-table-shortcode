@@ -1,0 +1,20 @@
+{
+    "name": "mff/mff-box",
+    "description": "Gerenciamento de Torneios de Box",
+    "type": "plugin",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Bruno Alves",
+        "email": "boteistem@gmail.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MFFBox\\": "app/"        
+        }
+    },
+    "require": {
+        "twig/twig": "^3.8"
+    }
+}
